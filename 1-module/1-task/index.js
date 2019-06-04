@@ -10,7 +10,7 @@
 function pow (m, n) {
     let result = m;
     let count = 1;
-	if (m > 0 && !isNaN(x)) 
+	if (m > 0 && !isNaN(m)) 
 	{
 		while (count < n) 
 		{
@@ -24,4 +24,3 @@ function pow (m, n) {
 		alert("Введете натуральное целое число");  
   	};  
   };
-

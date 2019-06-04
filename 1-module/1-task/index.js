@@ -10,7 +10,7 @@
 function pow (x, n) {
     let result = x;
 	let count = 1;
-	if (m > 0 && !isNaN(x)) 
+	if (x > 0 && !isNaN(x)) 
 	{
 		while (count < n) 
 		{

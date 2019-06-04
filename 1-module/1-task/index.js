@@ -7,14 +7,14 @@
 //let m = prompt('Введите число больше 0', 1);
 //let n = prompt('В какую степень возвести', 2);
 
-function pow (m, n) {
-    let result = m;
+function pow (x, n) {
+    let result = x;
 	let count = 1;
-	if (m > 0 && !isNaN(m)) 
+	if (m > 0 && !isNaN(x)) 
 	{
 		while (count < n) 
 		{
-		  		result *= m;
+		  		result *= x;
 		  		count += 1;
 		};
 		alert(result);

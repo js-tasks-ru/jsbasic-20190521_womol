@@ -10,14 +10,18 @@
 function pow (m, n) {
     let result = m;
 	let count = 1;
-	if (m < 0 || isNaN(m)) {
-		alert("Введете натуральное целое число")
-	} else {		
-		  while (count < n) {
+	if (m > 0 && !isNaN(m)) 
+	{
+		while (count < n) 
+		{
 		  		result *= m;
 		  		count += 1;
+		};
+		alert(result);
+	} 
+	else 
+	{		
+		alert("Введете натуральное целое число");  
   	};  
-  }
-  alert(result);
-};
+  };
 pow (2, 3);
